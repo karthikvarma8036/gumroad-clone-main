@@ -1,9 +1,5 @@
-# Django Gumroad Clone
+# Gumroad Clone
 
-### link to the deployed app website: https://djgumroad-app-xmuhn.ondigitalocean.app/
-### link to demo video: https://youtu.be/-RqRnl6G4UE
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This time I have built a clone of gumroad.com. Gumroad is a place where creators can sell their digital products and get paid. I have used the Stripe Payments and Stripe Connect to handle accept payments and sending payouts to all the creators.
 
@@ -32,13 +28,12 @@ This project shows demonstrate the work with Different API's and leverage the us
 
 
 ## Running the project
-1. Create your own virtual environment , and  don't forget to activate it | [toturial link](https://bit.ly/3YQlTDn)
+1. Create your own virtual environment , and  don't forget to activate it
 2. Install all of the packages which is mentioned in ```requirements/local.txt``` file
 3. Create a new file named ```.env``` inside the root of you project folder
 4. Copy all of the variables inside ```.env.template``` to your ```.env``` file and fill your own values inside 
-5. Download **Postgresql** and configure the connection parameters with to your own db in ```settings.py```, [see link for tutorial for more explanation](http://shorturl.at/dxEZ6) 
+5. Download **Postgresql** and configure the connection parameters with to your own db in ```settings.py```, 
 6. Learn how to create your own ```SECRET_KEY``` : https://bit.ly/42atuj1 and copy it to ```.env``` file.
-You can find all the [settings you have to config here](http://cookiecutter-django.readthedocs.io/en/latest/settings.html).
 7. Create an account in Stripe
 8. Copy and fill the DJANGO_SECRET_KEY and STRIPE_PUBLIC_KEY from your account 
 9. Create a secure https host using ngrock (https://dashboard.ngrok.com/get-started/your-authtoken) and add the new secure host to your ALLOWED_HOST in config/settings/local.py
